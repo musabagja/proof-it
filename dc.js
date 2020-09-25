@@ -13,7 +13,7 @@ const dcQuestions = [
     {
         question: 'Which two large corporation logos were seen on buildings in Metropolis during Man of Steels final battle?',
         answer: 'Wayne Enterprises and Lexcorp',
-        answerOption: ['Lexcorp and Star Labs ', 'Wayne Enterprises and Kord Industries', 'Lexcorp and Queen Consolidated', 'Wayne Enterprises and Lexcorp']
+        answerOption: ['Lexcorp and Star Labs', 'Wayne Enterprises and Kord Industries', 'Lexcorp and Queen Consolidated', 'Wayne Enterprises and Lexcorp']
     },
     {
         question: 'Batman V Superman Dawn of Justice was loosely based on what popular Batman story?',
@@ -53,12 +53,12 @@ const dcQuestions = [
     {
         question: 'What advice does Batman give the Flash during Justice League`s first team battle?',
         answer: '"Save one."',
-        answerOption: [' "One Step"', '"One Punch"', '"Breathe"', '"Save one."']
+        answerOption: ['"One Step"', '"One Punch"', '"Breathe"', '"Save one."']
     },
     {
         question: 'Which popular DC hero can be seen taking part in the ancient battle against Steppenwolf?',
         answer: 'Green Lantern',
-        answerOption: ['Dr. Fate', ' The Spectre', 'The Phantom Stranger', 'Green Lantern']
+        answerOption: ['Dr. Fate', 'The Spectre', 'The Phantom Stranger', 'Green Lantern']
     },
     {
         question: 'What is Batman`s secret "weapon" when they raise Superman?',

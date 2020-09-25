@@ -58,6 +58,7 @@ section {
 }
 
 .grid-answer button:hover {
+    background-color: transparent;
     color: white;
     cursor: pointer;
 }
