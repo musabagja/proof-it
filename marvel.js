@@ -44,6 +44,61 @@ const marvelQuestions = [
         question: 'CAPTAIN AMERICA: THE WINTER SOLDIER: What does the Winter Soldier say after Steve recognizes him for the first time?',
         answer: '"Who the hell is Bucky?"',
         answerOption: ['"Who the hell is Bucky?"', '"Do I know you?"', '"He`s gone."', '"What did you say?"']
+    },
+    {
+        question: 'GUARDIANS OF THE GALAXY: What were the three items Rocket claims he needs in order to escape the prison?',
+        answer: 'A security band, a battery, and a prosthetic leg',
+        answerOption: ['A security card, a fork, and an ankle monitor', 'A security band, a battery, and a prosthetic leg', 'A pair of binoculars, a detonator, and a prosthetic leg', 'A knife, cable wires, and Peter`s mixtape']
+    },
+    {
+        question: 'AVENGERS: AGE OF ULTRON: What word does Tony utter that makes Steve say, "Language"?',
+        answer: '"Shit!"',
+        answerOption: ['"Crap!"', '"Asshole!"', '"Shit!"', '"Idiot!"']
+    },
+    {
+        question: 'ANT-MAN: What animal does Darren Cross unsuccessfully shrink?',
+        answer: 'Sheep',
+        answerOption: ['Mouse', 'Sheep', 'Duck', 'Hamster']
+    },
+    {
+        question: 'CAPTAIN AMERICA: CIVIL WAR: Who ISN`T on Iron Man`s team?',
+        answer: 'Hawkeye',
+        answerOption: ['Vision', 'Black Panther', 'Hawkeye', 'Black Widow']
+    },
+    {
+        question: 'DOCTOR STRANGE: What type of doctor is Stephen Strange?',
+        answer: 'Neurosurgeon',
+        answerOption: ['Neurosurgeon', 'Cardiothoracic Surgeon', 'Trauma Surgeon', 'Plastic Surgeon']
+    },
+    {
+        question: 'GUARDIANS OF THE GALAXY VOL. 2: Finish this line: "I`m _______, y`all!"',
+        answer: 'Mary Poppins',
+        answerOption: ['Superman', 'Peter Pan', 'Underdog', 'Mary Poppins']
+    },
+    {
+        question: 'SPIDER-MAN: HOMECOMING: Who does Stan Lee appear as?',
+        answer: 'A neighbor who is disturbed by a car alarm',
+        answerOption: ['A guy who Spider-Man helps cross the street', 'A neighbor who is disturbed by a car alarm', 'Peter`s upstairs neighbor', 'A guy who works at a hot dog cart']
+    },
+    {
+        question: 'THOR: RAGNAROK: What is Valkyrie`s scrapper number?',
+        answer: '142',
+        answerOption: ['3', '16', '142', '232']
+    },
+    {
+        question: 'BLACK PANTHER: What do Killmonger and Klaue steal from the Museum of Great Britain?',
+        answer: 'Vibranium and a mask',
+        answerOption: ['Just vibranium', 'Vibranium and a mask', 'A map of Wakanda', 'A map of Wakanda and vibranium']
+    },
+    {
+        question: 'AVENGERS: INFINITY WAR: What elective class did Thor take on Asgard?',
+        answer: 'Learning to speak Groot',
+        answerOption: ['Learning to speak Groot', 'Hammer making', 'Learning to fly a space ship', 'How to take care of rabbits']
+    },
+    {
+        question: 'AVENGERS: ENDGAME: What is Natasha`s final line before she sacrifices herself on Vormir?',
+        answer: '"It`s okay."',
+        answerOption: ['"Let me go."', '"It`s okay."', '"Tell everyone I—"', '"Clint."']
     }
 ]
 
@@ -53,7 +108,7 @@ let healthPoint=3;
 let selesai=[];
 
 function generateQuestion() {
-    const randomIndex=Math.floor(Math.random()*9)
+    const randomIndex=Math.floor(Math.random()*20)
     let selectedQuestion=marvelQuestions[randomIndex];
     let flag=true;
     for(let i=0; i<selesai.length; i++){

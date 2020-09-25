@@ -44,7 +44,62 @@ const dcQuestions = [
         question: 'What two villains make up Doomsday`s DNA?',
         answer: 'Zod and Lex Luthor',
         answerOption: ['Zod and Lex Luthor', 'Steppenwolf and Zod', 'Darkseid and Lex Luthor', 'Steppenwolf and Lex Luthor']
-    }
+    },
+    {
+        question: 'What dessert does Wonder Woman first have in London that makes her extremely happy?',
+        answer: 'Ice Cream',
+        answerOption: ['Chocolate', 'Donuts', 'Ice Cream', 'Funnel Cake']
+    },
+    {
+        question: 'What advice does Batman give the Flash during Justice League`s first team battle?',
+        answer: '"Save one."',
+        answerOption: [' "One Step"', '"One Punch"', '"Breathe"', '"Save one."']
+    },
+    {
+        question: 'Which popular DC hero can be seen taking part in the ancient battle against Steppenwolf?',
+        answer: 'Green Lantern',
+        answerOption: ['Dr. Fate', ' The Spectre', 'The Phantom Stranger', 'Green Lantern']
+    },
+    {
+        question: 'What is Batman`s secret "weapon" when they raise Superman?',
+        answer: 'Lois Lane',
+        answerOption: ['Kryptonite Spear', 'Lois Lane', 'Kryptonite Bomb', 'Shazam']
+    },
+    {
+        question: 'What is the name of the device that Steppenwolf is trying to collect?',
+        answer: 'Mother Box',
+        answerOption: ['Mother Box', 'Inhuman Box', 'Father Box', 'Eternal Box']
+    },
+    {
+        question: 'What meal annoys the Flash?',
+        answer: 'Brunch',
+        answerOption: ['Lunch', 'Brunch', 'Dinner', 'Tea']
+    },
+    {
+        question: 'What sport was Victor Stone known for playing before he became Cyborg?',
+        answer: 'Football',
+        answerOption: ['Baseball', 'Basketball', 'Soccer', 'Football']
+    },
+    {
+        question: 'Which villain makes a cameo at the end of Justice League hinting at a Legion of Doom?',
+        answer: 'Deathstroke',
+        answerOption: ['Deathstroke', 'Joker', 'Deadshot', 'Terra']
+    },
+    {
+        question: 'What does Superman say that makes Batman not kill him?',
+        answer: '"Save Martha"',
+        answerOption: ['"I`m Clark Kent"', '"Tell Lois I love her"', '"I`m sorry"', '"Save Martha"']
+    },
+    {
+        question: 'What was the name of the Villain that was killed for attempting to run away from the Suicide Squad?',
+        answer: 'Slipknot',
+        answerOption: ['Slipknot', 'Killer Croc', 'Deadshot', 'El Diablo']
+    },
+    {
+        question: 'What was Harley Quinn`s profession before she became a supervillain?',
+        answer: 'Psychiatrist',
+        answerOption: ['Chef', 'Psychiatrist', 'Orderly', 'Nurse']
+    },
 ]
 
 let rightAnswer;
@@ -53,7 +108,7 @@ let healthPoint=3;
 let selesai=[];
 
 function generateQuestion() {
-    const randomIndex=Math.floor(Math.random()*9)
+    const randomIndex=Math.floor(Math.random()*20)
     let selectedQuestion=dcQuestions[randomIndex];
     let flag=true;
     for(let i=0; i<selesai.length; i++){
