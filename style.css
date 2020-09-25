@@ -1,0 +1,378 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'american_captainregular';
+
+}
+
+@font-face {
+    font-family: 'american_captainregular';
+    src: url('americancaptain-mdey-webfont.woff2') format('woff2'),
+         url('americancaptain-mdey-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#marvel-logo {
+    background-color: black;
+    padding: 100px 0px;
+    text-align: center;
+}
+
+.dc-logo {
+    background-color: black;
+    padding: 100px 0px;
+    text-align: center;
+}
+
+#dc-logo {
+    padding-bottom: 100px;
+}
+
+section {
+    padding: 200px 400px;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.index {
+    background-image: url("image/middle-pattern-home.png");
+}
+
+.grid-answer {
+    display: grid;
+    size: 800px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+}
+
+.grid-answer button {
+    border-radius: 0px;
+    font-size: 40px;
+    box-shadow: 2px 6px 30px 0px rgba(0,0,0,0.75);
+}
+
+.grid-answer button:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.question {
+    color: white;
+    font-size: 40px;
+}
+
+.marvel-congrats {
+    background-image: url("image/marvel-congrats.png");
+    padding: 600px 0px;
+    background-size: auto;
+    background-position: center;
+    background-color: black;
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    top: 200px;
+}
+
+.dc-congrats {
+    background-image: url("image/dc-congrats.png");
+    padding: 600px 0px;
+    background-size: auto;
+    background-position: center;
+    background-color: black;
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    top: 200px;
+}
+
+.marvel-congrats p {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    bottom: 400px;
+    vertical-align: middle;
+}
+
+.dc-congrats p {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    bottom: 400px;
+    vertical-align: middle;
+}
+
+.marvel-congrats h4 {
+    background-color: black;
+    position: fixed;
+    font-size: 30px;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.dc-congrats h4 {
+    background-color: black;
+    position: fixed;
+    font-size: 30px;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.marvel-congrats #submit-button {
+    position: fixed;
+    bottom: 50px;
+    width: 10%;
+    bottom: 55px;
+    left: 45%;
+    font-size: 40px;
+    background-color: #1a1a1a;
+    border-color: grey;
+    text-align: center;
+    box-shadow: 14px 13px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.dc-congrats #submit-button {
+    position: fixed;
+    bottom: 50px;
+    width: 10%;
+    bottom: 55px;
+    left: 45%;
+    font-size: 40px;
+    background-color: #1a1a1a;
+    border-color: grey;
+    text-align: center;
+    box-shadow: 14px 13px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.marvel-congrats #submit-button:hover {
+    color: black;
+    background-color: #33ccff;
+}
+
+.dc-congrats #submit-button:hover {
+    color: black;
+    background-color: #33ccff;
+}
+
+.marvel-congrats form {
+    width: 100%;
+    text-align: center;
+}
+
+#marvel-pattern {
+    background-image: url("image/marvel-pattern.png");
+    background-origin: border-box;
+}
+
+#dc-pattern {
+    background-image: url("image/dc-pattern.png");
+}
+
+.start-button form button {
+    padding: 20px 0px;
+    width: 200px;
+    font-size: 40px;
+    font-family: 'american_captainregular';
+    color: #33ccff;
+    background-color: #1a1a1a;
+    border-color: grey;
+    text-align: center;
+    display: block;
+    margin: auto;
+    box-shadow: 14px 13px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.start-button form button:hover {
+    padding: 20px 0px;
+    width: 200px;
+    font-size: 40px;
+    color: black;
+    background-color: #33ccff;
+    text-align: center;
+    display: block;
+    margin: auto;
+    box-shadow: 14px 13px 5px 0px rgba(0,0,0,0.75);
+}
+
+.order {
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.order p {
+    font-size: 30px;
+    color: white;
+}
+
+.option-button div button {
+    padding: 5px 0px;
+    width: 200px;
+    font-size: 16px;
+    color: #33ccff;
+    background-color: #1a1a1a;
+    border-color: grey;
+    text-align: center;
+    display: block;
+    margin: auto;
+    box-shadow: 14px 13px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.option-button div #marvel-button:hover {
+    padding: 5px 0px;
+    width: 200px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-image: url("image/marvel-pattern.png");
+    background-size: 200px 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-color: grey;
+    text-align: center;
+    display: block;
+    margin: auto;
+    box-shadow: 14px 13px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.option-button div #dc-button:hover {
+    padding: 5px 0px;
+    width: 200px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-image: url("image/dc-pattern.png");
+    background-size: 200px 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-color: grey;
+    text-align: center;
+    display: block;
+    margin: auto;
+    box-shadow: 14px 13px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.option-button {
+    display: grid;
+    position: absolute;
+    grid-column-gap: 5px;
+    margin: auto;
+    width: 400px;
+    height: 90px;
+    grid-template-columns: 50% 50%;
+}
+
+.hud p {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 20px 40px;
+    box-shadow: 2px 6px 30px 0px rgba(0,0,0,0.75);
+    position: fixed;
+    font-family: 'american_captainregular';
+}
+
+.hud {
+    display: grid;
+    position: fixed;
+    grid-column-gap: 0px;
+    margin: auto;
+    width: 400px;
+    height: 90px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.health-hud {
+    bottom: 40px;
+    left: 200px;
+}
+
+.true-hud {
+    bottom: 40px;
+    left: 450px;
+}
+
+#countdown-hud {
+    bottom: 40px;
+    left: 718px;
+}
+
+.board {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 20px 20px;
+    box-shadow: 2px 6px 30px 0px rgba(0,0,0,0.75);
+    position: fixed;
+    bottom: 40px;
+    font-family: 'american_captainregular';
+}
+
+.loser {
+    background-image: url("image/middle-pattern-home.png");
+}
+
+.loser p {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.loser form {
+    width: 100%;
+    text-align: center;
+}
+
+.loser #submit-button {
+    bottom: 50px;
+    width: 30%;
+    bottom: 55px;
+    left: 45%;
+    font-size: 40px;
+    background-color: #1a1a1a;
+    color: #33ccff;
+    border-color: grey;
+    text-align: center;
+    box-shadow: 14px 13px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.loser #submit-button:hover {
+    color: black;
+    background-color: #33ccff;
+}
+
+.board p {
+    text-align: justify;
+}
+
+.answer-option {
+    size: 20px 20px;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 10px 0px;
+}
