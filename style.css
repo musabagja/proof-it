@@ -81,8 +81,8 @@ section {
 
 .dc-congrats {
     background-image: url("image/dc-congrats.png");
+    background-size: 700px 1000px;
     padding: 600px 0px;
-    background-size: auto;
     background-position: center;
     background-color: black;
     color: white;
