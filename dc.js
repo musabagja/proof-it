@@ -207,7 +207,7 @@ opsi4.addEventListener('click', function () {
     gameBegin();
 })
 
-const startingSeconds=5;
+const startingSeconds=15;
 let time=startingSeconds;
 const countDown=document.getElementById("countdown-hud");
 
